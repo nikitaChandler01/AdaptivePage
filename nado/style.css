@@ -48,6 +48,7 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 36px 50px 36px 50px;
+  flex-wrap: wrap;
 }
 .header__menu-nav {
   width: 400px;
@@ -64,6 +65,7 @@ a {
 .header__content {
   margin: 0 auto;
   max-width: 900px;
+  padding: 0 20px 0 20px;
 }
 .header__title {
   font-size: 56px;
@@ -89,10 +91,12 @@ a {
 .header__image {
   text-align: center;
 }
+.header__img {
+  width: 100%;
+}
 
 /* ===============SECTION FIGMALAND FEATURES=============== */
 .section-feature {
-  height: 100vh;
   padding-top: 50px;
 }
 
@@ -145,7 +149,6 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
- 
 }
 
 .title-left {
@@ -186,9 +189,6 @@ a {
   margin-right: 0px;
 }
 /* ===========================SECTION PERFECT SOLUTIONS (3 РАЗДЕЛ) небольшие корректировки============ */
-.possibilities__paragraph--compressed {
-  font-weight: normal;
-}
 .posibilities__content--compressed {
   display: flex; 
   justify-content: space-between; /*увеличиваю высоту текста*/
@@ -208,7 +208,7 @@ a {
 
 /* =========================PRICES========================*/
 
-.price-iner {
+.price-inner {
   padding: 50px 100px 50px 100px;
 }
 .price__items {
